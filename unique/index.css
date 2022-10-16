@@ -1,0 +1,123 @@
+p{
+    color: brown;
+}
+table{
+    background-color: blueviolet;
+    border: 2px solid;
+    margin-left: 50px;
+}
+th{
+    border: 2px solid;
+}
+td{
+    border: 2px solid;
+}
+img{
+    width: 100px;
+    height: 200px;
+}
+a{
+    text-decoration: none;
+}
+/* div{
+    background-color: blueviolet;
+    width: 40%;
+    border-radius: 0%;
+    padding-left: 8%;
+} */
+    
+.flex_1{
+    display: flex;
+}
+
+#id_1{
+    margin-left: 45%;
+}
+
+#id_2{
+    background-color: aqua;
+    width: 50%;
+    padding: 10%;
+    border: dotted orchid;
+}
+
+.firstdiv{
+    border-radius: 10%;
+}
+.anotherdiv:hover{
+    background-color: rgb(218, 55, 55);
+    border: dotted olivedrab;
+    padding-left: 10%;
+}
+    
+.case1{
+    border-radius: 2px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.flx_1{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flx_2{
+    background-color: blueviolet;
+    display: flex;
+}
+
+.child1{
+    background-color: rgb(135, 69, 69);
+    width: 50%;
+    padding: 5%;
+}
+.child2{
+    background-color: rgba(67, 62, 62, 0.998);
+    width: 50%;
+    padding: 5%;
+}
+
+.father{
+    background-color: rgb(163, 163, 183);
+    border-radius: 3%;
+    width: 50%;
+}
+
+.btn{
+    background-color: yellowgreen;
+    width: 80%;
+    border-radius: 13px;
+    border: none;
+    box-shadow: 2px 4px 5px 2px
+
+}
+.basic{
+    background-color: lime;
+    width: 40%;
+    height: 120px;
+    position: fixed;
+    left: 20%;
+    bottom: 20%;
+    border-radius: 17px;
+    box-shadow: 2px 4px 12px
+
+}
+
+.basic1{
+    background-color: blue;
+    color: white;
+    width: 50%;
+    height: 70px;
+    position: relative;
+    bottom: 90px;
+
+}
+
+.anotherdiv{
+    width: 50;
+    height: 200px;
+    background-color: darkgoldenrod;
+    position: relative;
+}
+

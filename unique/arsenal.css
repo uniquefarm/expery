@@ -1,0 +1,12 @@
+.anotherdiv{
+    width: 50;
+    height: 200px;
+    background-color: darkgoldenrod;
+    position: relative;
+}
+
+.moveimg{
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+}

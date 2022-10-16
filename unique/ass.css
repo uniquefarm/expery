@@ -1,0 +1,118 @@
+/* ...
+// all rules outside of @media queries apply to devices 1201px and above
+... */
+
+@media (max-width: 2560px) {
+    .logo{
+        width: 30%;
+    }
+
+
+    .btn{
+        height: 50%;
+    }
+
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+    .first_h{
+        font-size: 56%;
+    }
+
+
+    header{
+        text-align: center;
+    }
+
+
+    .flx1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    .flx_1{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+
+    .space1{
+        padding-right: 30%;
+    }
+
+
+    .space2{
+        padding-right: 10%;
+    }
+
+
+    .sect2{
+    width: 30px;
+    }
+
+
+    .sect1{
+        padding-top: 30%;
+        margin-right: 30%;
+    }
+
+
+    .tito1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    .ella1{
+        width: 2%;
+        padding-right: 30%;
+    }
+
+
+    .ella2{
+        padding-top: 25%;
+        padding-left: 30%;
+    }
+
+
+    .everything_1{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    .zone1{
+        padding-top: 25%;
+    }
+    .header2{
+        padding-top: 5%;
+        text-align: center;
+    }
+    .btn4{
+        background-color: palevioletred;
+        height: 30px;
+        border: none;
+        border-radius: 15px;
+        width: 15%;
+        box-shadow: 7px 7px 7px ;
+    }
+    .btn2{
+        background-color: palevioletred;
+        height: 30px;
+        border: none;
+        border-radius: 15px;
+        width: 15%;
+    }
+   
+}
+@media (max-width: 1200px) {}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {}
+@media (max-width: 425px) {}

@@ -1,0 +1,25 @@
+/* ...
+// all rules outside of @media queries apply to devices 1201px and above
+... */
+
+@media (max-width: 2560px) {
+    .logo{
+        width: 40%;
+        }
+        .btn{
+            height: 50px;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        .first_b{
+            font-size: 
+        }
+}
+@media (max-width: 1200px) {}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {}
+@media (max-width: 425px) {
+    
+}

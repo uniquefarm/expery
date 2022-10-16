@@ -1,0 +1,51 @@
+/* ...
+// all rules outside of @media queries apply to devices 1201px and above
+... */
+@media (max-width: 2560px) {
+    body{
+background-color: blue;
+}
+.div_1{
+    background-color: pink;
+    width: 50%;
+}
+    
+}
+@media (max-width: 1200px) {
+    body{
+        background-color: brown;
+    }
+	/* ...
+	// rules here apply to devices from 993px to 1200px (inclusive)
+	... */
+}
+@media (max-width: 992px) {
+    body{
+        background-color: aqua;
+    }	
+	/* ...
+	// rules here apply to devices from 769px to 992px (inclusive)
+	... */
+  
+}
+@media (max-width: 768px) {
+    body{
+        background-color: green;
+    }
+	/* ...
+	// rules here apply to devices from 0px to 768px (inclusive)
+	... */
+
+}
+@media (max-width: 425px) {
+    body{
+        background-color: purple;
+    }
+
+    .div_1{
+        width: 80%;
+    }
+	/* ...
+	// rules here apply to devices from 0px to 425px (inclusive)
+	... */
+}
